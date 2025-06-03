@@ -111,3 +111,23 @@ a {
   color: #BD5D38; }
   a:hover, a:focus, a:active {
     color: #824027; }
+/* Enhance experience section with timeline visuals */
+#experience .resume-item {
+  position: relative;
+  background-color: #fff;
+  border-left: 3px solid #BD5D38;
+  padding-left: 1.5rem;
+  margin-left: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.05);
+}
+#experience .resume-item::before {
+  content: "";
+  position: absolute;
+  left: -0.65rem;
+  top: 1rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #BD5D38;
+  border-radius: 50%;
+}
