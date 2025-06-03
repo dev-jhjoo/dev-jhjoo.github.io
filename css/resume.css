@@ -123,7 +123,6 @@ a {
 }
 
 #experience .resume-item::before {
-  content: "";
   position: absolute;
   left: -0.65rem;
   top: 1rem;
