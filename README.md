@@ -1,5 +1,5 @@
 # dev-jhjoo.github.io
-MyPage
+MyPage jjh
 
 ## Copyright and License
 
